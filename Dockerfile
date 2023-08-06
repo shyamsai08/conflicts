@@ -13,7 +13,7 @@ COPY your-application.war /usr/local/tomcat/webapps/ROOT.war
 # COPY path/to/your/config/file /path/in/container
 
 # Expose the Tomcat port (default is 8080)
-EXPOSE 8080
+EXPOSE 8081
 
 # Start Tomcat when the container starts
 CMD ["catalina.sh", "run"]
